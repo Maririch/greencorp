@@ -113,7 +113,7 @@ button {
 .form__group {
   display: flex;
   flex-direction: column;
-  text-align: left
+  text-align: left;
 }
 
 .form form {
@@ -125,19 +125,10 @@ button {
 .form label {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.form input{
-  font-size: 18px;
-  color: #213053;
-  height: 60px;
-  padding: 0px 20px 0px 20px;
-  border-radius: 15px;
-  border: none;
-}
-
-.form select{
+.form input, .form select{
   font-size: 18px;
   color: #213053;
   height: 60px;
@@ -149,6 +140,7 @@ button {
 .form__submit{
   font-size: 18px;
   font-weight:600;
+  margin-top: 40px;
 }
 select {
   appearance: none;
@@ -163,37 +155,39 @@ button:hover{
   transition: background-color 0.3s ease-in;
 }
 
-.footer__container{
-  font-size: 16px;
-  font-weight: 600;
-  padding: 90px 20px 90px 20px;
+footer {
+   padding: 90px 20px;
+   font-size: 16px;  
+   font-weight: 600;
+}
 
+.footer__container{
   display: flex;
   justify-content: center; 
 }
 
-.footer__copyright{
-
+.footer__copyright {
   padding-top: 40px;
   text-align: center;
   opacity: 0.5;
 }
 
 .footer__group{
-  padding-right: 80px;
+  margin-right: 80px;
 }
 
-.footer__group h3{
+.footer h3{
   font-size: 16px;
   opacity: 0.7;
   padding-bottom: 30px;
 }
 
-.footer__links{
+.footer__links {
   display: flex;
   flex-direction: column;
 
 }
 .footer__links a{
-    margin-top: 15px;
+  margin-top: 15px;
 }
+
